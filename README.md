@@ -1,20 +1,21 @@
-# Lyrics-Box-Arduino
+
+# **Lyrics-Box-Arduino*
 It's just a prototype I am working on to display Lyrics based on time.
 In this demo, I have used the song Closer from Chainsmokers. 
 
-Requirements
+**Requirements**
 
-Arduino
-Breadboard
-16X2 LCD Display
-Jumpwires
-PC with Arduino
+ - Arduino 
+ - Breadboard 
+ - 16X2 LCD Display 
+ - Jumpwires 
+ - PC with Arduino
 
-Setup 
+**Setup** 
 
-Download the file and open it with Arduino. 
-Upload the file to your board. 
-Using the serial monitor, Send "N" to start displaying the lyrics.
+ - Download the file and open it with Arduino.  
+ - Upload the file to your board. 
+ - Using the serial monitor, Send "N" to start displaying the    lyrics.
 
 Source Code :
 ```
@@ -120,3 +121,11 @@ void serialEvent()
   }
 }
 ```
+
+
+----------
+
+
+Sources 
+
+http://engineeringlearning.blogspot.in/2013/10/interfacing-lcd-without-potentiometer.html

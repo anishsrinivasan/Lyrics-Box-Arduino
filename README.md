@@ -17,7 +17,7 @@ Upload the file to your board.
 Using the serial monitor, Send "N" to start displaying the lyrics.
 
 Source Code :
-
+```
 #include <LiquidCrystal.h>
 char ch;
 int Contrast=15;
@@ -119,3 +119,4 @@ void serialEvent()
      }
   }
 }
+```

@@ -17,7 +17,7 @@ In this demo, I have used the song Closer from Chainsmokers.
  - Upload the file to your board. 
  - Using the serial monitor, Send "N" to start displaying the    lyrics.
 
-Source Code :
+**Source Code** :
 ```
 #include <LiquidCrystal.h>
 char ch;
